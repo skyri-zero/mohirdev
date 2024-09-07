@@ -12,3 +12,4 @@
 /home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.pdb
 /home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.genruntimeconfig.cache
 /home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/ref/mohirdev.dll
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.sourcelink.json
