@@ -1,0 +1,14 @@
+/home/skyri/RiderProjects/mohirdev/mohirdev/bin/Debug/net8.0/mohirdev
+/home/skyri/RiderProjects/mohirdev/mohirdev/bin/Debug/net8.0/mohirdev.deps.json
+/home/skyri/RiderProjects/mohirdev/mohirdev/bin/Debug/net8.0/mohirdev.runtimeconfig.json
+/home/skyri/RiderProjects/mohirdev/mohirdev/bin/Debug/net8.0/mohirdev.dll
+/home/skyri/RiderProjects/mohirdev/mohirdev/bin/Debug/net8.0/mohirdev.pdb
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.GeneratedMSBuildEditorConfig.editorconfig
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.AssemblyInfoInputs.cache
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.AssemblyInfo.cs
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.csproj.CoreCompileInputs.cache
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.dll
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/refint/mohirdev.dll
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.pdb
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/mohirdev.genruntimeconfig.cache
+/home/skyri/RiderProjects/mohirdev/mohirdev/obj/Debug/net8.0/ref/mohirdev.dll
