@@ -2,6 +2,6 @@
 
 // ThreeTasks.TaskOne();
 
-ThreeTasks.TaskTwo();
+// ThreeTasks.TaskTwo();
 
-// threeTasks.TaskThree();
+ThreeTasks.TaskThree();

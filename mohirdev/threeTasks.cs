@@ -113,6 +113,91 @@ public class ThreeTasks {
     
     public static void TaskThree()
     {
+        // 1-st task
+        bool IsSimple(int x)
+        {
+            for (int i = 2; i < x; i++)
+            {
+                if (x % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        Console.Write("Enter any positive number: ");
+        int num = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine($"Your number is {(IsSimple(num) ? "simple" : "not simple")}");
         
+        // 2-nd task
+
+        Console.Write("This numbers divisors are: ");
+        for (int i = 2; i <= 10; i++)
+        {
+            if (num % i == 0)
+            {
+                Console.Write($"{i}, ");
+            }
+        }
+        
+        // 3-rd task
+
+        Console.Write("\nInput number and degree with ENTER key: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        int degree = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine($"{number} ^ {degree} = {Math.Pow(number, degree)}");
+        
+        // 4-th task
+
+        Console.WriteLine("\nEnter prices");
+        Console.Write("Enter first number: ");
+        int n1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter second number: ");
+        int n2 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter third number: ");
+        int n3 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine($"The sum is {n1 + n2 + n3}");
+        
+        // 5-th task
+        
+        bool IsArmstrongNumber(int num)
+        {
+            string numStr = num.ToString();
+            int power = numStr.Length;
+            int sum = 0;
+
+            foreach (char digit in numStr)
+            {
+                sum += (int)Math.Pow(int.Parse(digit.ToString()), power);
+            }
+
+            return sum == num;
+        }
+
+        Console.Write("Enter number: ");
+        int armstrong = int.Parse(Console.ReadLine()!);
+
+        Console.WriteLine($"{armstrong} is {(IsArmstrongNumber(armstrong) ? "Armstrong" : "not Armstrong")}");
+        
+        // 6-th task
+        
+        Console.Write("Enter Another number: ");
+        int anotherNum = int.Parse(Console.ReadLine());
+
+        int qualityDivisorsCount = CountQualityDivisors(anotherNum);
+        Console.WriteLine($"Quality Numbers quantity: {qualityDivisorsCount}");
+
+        static int CountQualityDivisors(int num)
+        {
+            int count = 0;
+
+            for (int i = 1; i <= num / 2; i++)
+                if (num % i == 0) count++;
+
+            return count + 1;
+        }
     }
 }
