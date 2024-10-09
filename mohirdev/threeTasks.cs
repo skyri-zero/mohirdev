@@ -197,7 +197,7 @@ public class ThreeTasks {
             for (int i = 1; i <= num / 2; i++)
                 if (num % i == 0) count++;
 
-            return count + 1;
+            return count + 1; 
         }
     }
 }
