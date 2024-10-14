@@ -1,7 +1,7 @@
 ﻿using mohirdev;
 
-// ThreeTasks.TaskOne();
+// Tanlash.TaskOne();
 
-// ThreeTasks.TaskTwo();
+// Tanlash.TaskTwo();
 
-ThreeTasks.TaskThree();
+Tanlash.TaskThree();
