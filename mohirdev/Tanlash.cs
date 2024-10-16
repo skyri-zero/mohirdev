@@ -2,7 +2,7 @@ using System.Threading.Channels;
 
 namespace mohirdev;
 
-public class Tanlash
+public class Tanlash1
 {
     public static void TaskOne()
     {
@@ -140,5 +140,80 @@ public class Tanlash2
 
 public class Tanlash3
 {
+    public static void TaskOne()
+    {
+        Console.Write("Enter any word: ");
+        string word = Console.ReadLine()!;
+        int n = word.Length;
+
+        bool isPolindrome = false;
+        for (int i = 0; i < n; i++)
+        {
+            if (word[i] == word[n-1-i])
+                isPolindrome = true;
+            else
+            {
+                isPolindrome = false;
+                break;
+            }
+        }
+
+        if (isPolindrome)
+            Console.WriteLine("Palindrome");
+        else
+            Console.WriteLine("Not palindrome");
+    }
     
+    public static void TaskTwo()
+    {
+        Console.Write("Enter temperature in C: ");
+        var temp = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Type 1-for Kelvin, 2-Fahrenheit, any key for both:");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        double fahrenheit = (temp * 9/5) + 32;
+        double kelvin = temp + 273.15;
+        switch (choice)
+        {
+            case 1:
+                Console.WriteLine($"{temp} C = {kelvin} K");
+                break;
+            case 2:
+                Console.WriteLine($"{temp} C = {fahrenheit} F");
+                break;
+            default:
+                Console.WriteLine($"{temp} C = {kelvin} K = {fahrenheit} F");
+                break;
+        }
+    }
+
+    public static void TaskThree()
+    {
+        Console.Write("Enter numbers: ");
+
+        string num = Console.ReadLine()!;
+        int[] nums = num.Split(',').Select(int.Parse).ToArray();
+
+        Console.WriteLine("Sorted ascending: " + string.Join(", ",  nums.OrderBy(n => n)));
+        Console.WriteLine("Sorted descending: " + string.Join(", ",  nums.OrderByDescending(n => n)));
+    }
+
+    public static void TaskFour()
+    {
+        Console.Write("Enter any sentence: ");
+        string sentence = Console.ReadLine()!;
+
+        string countedChars = "";
+
+        foreach (char c in sentence)
+            if (!countedChars.Contains(c))
+            {
+                int count = 0;
+                foreach (char ch in sentence)
+                    if (ch == c) count++;
+                
+                countedChars += c;
+                Console.WriteLine($"'{c}': {count} marta");
+            }
+    }
 }
