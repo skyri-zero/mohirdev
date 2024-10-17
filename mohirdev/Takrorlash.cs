@@ -50,7 +50,7 @@ public class Takrorlash1
             Console.WriteLine("Enter valid number!!!");
         else
             Console.WriteLine("Factorial of 0 is " + factorial);
-    }
+    } 
 }
 
 public class Takrorlash2
