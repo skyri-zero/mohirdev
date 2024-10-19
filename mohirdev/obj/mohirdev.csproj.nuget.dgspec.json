@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/skyri/RiderProjects/mohirdev/mohirdev/mohirdev.csproj": {}
+    "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj": {}
   },
   "projects": {
-    "/home/skyri/RiderProjects/mohirdev/mohirdev/mohirdev.csproj": {
+    "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/skyri/RiderProjects/mohirdev/mohirdev/mohirdev.csproj",
+        "projectUniqueName": "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj",
         "projectName": "mohirdev",
-        "projectPath": "/home/skyri/RiderProjects/mohirdev/mohirdev/mohirdev.csproj",
-        "packagesPath": "/home/skyri/.nuget/packages/",
-        "outputPath": "/home/skyri/RiderProjects/mohirdev/mohirdev/obj/",
+        "projectPath": "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj",
+        "packagesPath": "C:\\Users\\skyri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/skyri/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\skyri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\skyri\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
