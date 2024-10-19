@@ -53,7 +53,3 @@ public class Takrorlash1
     } 
 }
 
-public class Takrorlash2
-{
-    
-}
