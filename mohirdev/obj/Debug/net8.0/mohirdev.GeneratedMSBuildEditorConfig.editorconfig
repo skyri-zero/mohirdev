@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mohirdev
-build_property.ProjectDir = C:\Users\skyri\Documents\Rider Projects\mohirdev\mohirdev\
+build_property.ProjectDir = C:\Users\skyri\Documents\RiderProjects\mohirdev\mohirdev\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

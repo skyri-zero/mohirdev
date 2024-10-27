@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj": {}
+    "C:\\Users\\skyri\\Documents\\RiderProjects\\mohirdev\\mohirdev\\mohirdev.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj": {
+    "C:\\Users\\skyri\\Documents\\RiderProjects\\mohirdev\\mohirdev\\mohirdev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj",
+        "projectUniqueName": "C:\\Users\\skyri\\Documents\\RiderProjects\\mohirdev\\mohirdev\\mohirdev.csproj",
         "projectName": "mohirdev",
-        "projectPath": "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\mohirdev.csproj",
+        "projectPath": "C:\\Users\\skyri\\Documents\\RiderProjects\\mohirdev\\mohirdev\\mohirdev.csproj",
         "packagesPath": "C:\\Users\\skyri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skyri\\Documents\\Rider Projects\\mohirdev\\mohirdev\\obj\\",
+        "outputPath": "C:\\Users\\skyri\\Documents\\RiderProjects\\mohirdev\\mohirdev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\skyri\\AppData\\Roaming\\NuGet\\NuGet.Config"
