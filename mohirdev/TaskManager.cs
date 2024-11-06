@@ -1,7 +1,44 @@
 ﻿namespace mohirdev;
 
-public static class TaskManager
+public class TaskManager
 {
+    private string[] _list;
+    private int[] _marked;
+
+    public TaskManager(ref string[] list, ref int[] isMarked)
+    {
+        _list = list;
+        _marked = isMarked;
+    }
+
+    public void Start()
+    {
+        while (true)
+        {
+            ShowTasks(_list, _marked);
+            Console.WriteLine("\n1 - Add task \t 2 - Remove task \t 3 - Mark task \t 0 - Exit\n");
+            Console.Write("Choose action: ");
+            var choice = Convert.ToInt32(Console.ReadLine());
+            if (choice != 0)
+                switch (choice)
+                {
+                    case 1:
+                        AddTask(ref _list);
+                        break;
+                    case 2:
+                        RemoveTask(ref _list);
+                        break;
+                    case 3:
+                        MarkTask(ref _marked);
+                        break;
+                    default:
+                        Console.WriteLine("Enter 1 or 2!!!\n");
+                        break;
+                }
+            else
+                break;
+        }
+    }
     public static void ShowTasks(string[] list, int[] mark)
     {
         int i = 1;
@@ -44,7 +81,7 @@ public static class TaskManager
         Console.WriteLine("\nTask added");
     }
 
-    public static void MarkTask(ref string[] list, ref int[] mark)
+    public static void MarkTask(ref int[] mark)
     {
         Console.Write("Choose task to complete: ");
         int choice = Convert.ToInt32(Console.ReadLine());
