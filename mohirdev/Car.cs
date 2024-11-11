@@ -4,7 +4,7 @@ public class Car
 {
     string Model { get; set; }
     public int Year { get; set; }
-    decimal Price { get; set; }
+    public decimal Price { get; set; }
     decimal Speed { get; set; }
 
     public Car()
@@ -23,10 +23,8 @@ public class Car
         Speed = speed;
     }
 
-    public string GetCarInfo()
-    {
-        return $"Model: {Model}, Year: {Year}, Price: {Price}, Speed: {Speed}";
-    }
+    public string GetCarInfo() =>
+        $"Model: {Model}, Year: {Year}, Price: {Price}$, Speed: {Speed}";
 
     public void CalculateDepreciation(int years)
     {
@@ -46,5 +44,12 @@ public class Car
             decimal currentPrice = Price * (decimal)Math.Pow(1 - 0.1, DateTime.Now.Year - Year);
             Console.WriteLine($"{Model}'s current price: {currentPrice}$");
         }
+    }
+
+    public static void GetCarsInRange(List<Car> cars, decimal low, decimal high)
+    {
+        foreach (var car in cars)
+            if (car.Price <= high && car.Price >= low)
+                Console.WriteLine(car.GetCarInfo());
     }
 }
