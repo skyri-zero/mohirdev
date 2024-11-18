@@ -1,10 +1,10 @@
-﻿namespace mohirdev;
+﻿namespace mohirdev.Classes;
 
 public class Boxer
 {
     public Guid Id { get; set; }
     public string? Name { get; set; }
-    public string? Surname { get; set; }
+    static public string? Surname { get; set; }
     public int Age { get; set; }
     public int Weight { get; set; }
 

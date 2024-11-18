@@ -1,6 +1,4 @@
-using System.Threading.Channels;
-
-namespace mohirdev;
+namespace mohirdev.Classes;
 
 public class Tanlash1
 {
