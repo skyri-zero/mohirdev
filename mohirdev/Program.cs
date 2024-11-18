@@ -1,5 +1,57 @@
-﻿using System.Data;
-using mohirdev;
+﻿using mohirdev.Classes;
+
+class BankApp 
+{
+    public static void Main(string[] args)
+    {
+        Bank bank = new Bank();
+
+        Console.WriteLine("Welcome to the BankApp.");
+        
+        var customer1 = bank.OpenAccount("Skyri Zero", "4441744");
+        customer1.Account.Deposit(1000);
+        
+        var customer2 = bank.OpenAccount("John Wick", "3678087");
+        customer2.Account.Deposit(700);
+        
+        bank.TransferFunds("4441744", "3678087", 500);
+
+        Console.WriteLine($"{customer1.Name}'s balance is {customer1.Account.GetBalance()}");
+        Console.WriteLine($"{customer2.Name}'s balance is {customer2.Account.GetBalance()}");
+
+        Console.WriteLine("\nClosing account...\n");
+        
+        bank.CloseAccount("4441744");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*string[] taskList = {"Do the dishes", "Do the chores", "Deadline on 13th of October"};
 int[] isMarked = {};
@@ -17,7 +69,7 @@ fiction.ChangeName("Ikigai");
 fiction.Print();*/
 
 
-List<Student> students = new ()
+/*List<Student> students = new ()
 {
     new Student("Skyri", "Zero", 3, Rating.A),
     new Student("John", "Smiths", 2, Rating.C),
@@ -61,4 +113,23 @@ List<Boxer> boxers = new()
 };
 
 Console.WriteLine();
-Boxer.SortIntoCategories(boxers);
+Boxer.SortIntoCategories(boxers);*/
+
+/*try
+{
+    Console.Write("Enter your age: ");
+    int age = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("You are older than me. ");
+}
+catch (Exception e)
+{
+    Console.WriteLine("The format of number is not valid...  " + e.Message);
+}
+
+Console.WriteLine(DateTimeOffset.UtcNow + "\n" + DateTime.Now.ToUniversalTime());
+
+Console.WriteLine("Program ended.");
+
+Boxer.Surname = "Rider";
+Console.WriteLine(Boxer.Surname);*/

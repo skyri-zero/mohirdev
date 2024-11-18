@@ -1,4 +1,4 @@
-namespace mohirdev;
+namespace mohirdev.Classes;
 
 public class ThreeTasks {
     public static void TaskOne()

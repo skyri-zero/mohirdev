@@ -1,4 +1,4 @@
-﻿namespace mohirdev;
+﻿namespace mohirdev.Classes;
 
 public enum Rating : int
 {
