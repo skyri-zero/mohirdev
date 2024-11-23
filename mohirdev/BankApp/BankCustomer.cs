@@ -1,4 +1,4 @@
-﻿namespace mohirdev.Classes;
+﻿namespace mohirdev.BankApp;
 
 public class BankCustomer
 {

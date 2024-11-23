@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mohirdev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42cbcffafff50ab7362889c036c429d3dbefa53c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c3b889e78e4f0281998ef8008145497108a7b42")]
 [assembly: System.Reflection.AssemblyProductAttribute("mohirdev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mohirdev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
